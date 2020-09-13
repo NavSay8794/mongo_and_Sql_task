@@ -1,0 +1,20 @@
+3. Find the director of each film
+
+Query:
+db.filmData.find({}, {director:1})
+
+Results:
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f3"), "director" : "John Lasseter" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f4"), "director" : "Andrew Stanton" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f5"), "director" : "Brenda Chapman" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f6"), "director" : "Dan Scanlon" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f7"), "director" : "Andrew Stanton" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f8"), "director" : "Pete Docter" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f9"), "director" : "John Lasseter" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805fa"), "director" : "Brad Bird" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805fb"), "director" : "John Lasseter" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805fc"), "director" : "Pete Docter" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805fd"), "director" : "Lee Unkrich" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805fe"), "director" : "Brad Bird" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805ff"), "director" : "John Lasseter" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf6580600"), "director" : "John Lasseter" }

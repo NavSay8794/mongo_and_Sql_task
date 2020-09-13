@@ -1,0 +1,15 @@
+6.Find the movie with a row id of 6
+
+Query:
+ db.filmData.find({id:6}).pretty()
+
+Result:
+
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fa"),
+        "id" : 6,
+        "title" : "The Incredibles",
+        "director" : "Brad Bird",
+        "year" : 2004,
+        "length_minutes" : 116
+}

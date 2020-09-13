@@ -1,0 +1,46 @@
+9.Find the first 5 Pixar movies and their release year
+
+Query:
+db.filmData.find().limit(5).pretty()
+
+Results:
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f3"),
+        "id" : 1,
+        "title" : "Toy Story",
+        "director" : "John Lasseter",
+        "year" : 1995,
+        "length_minutes" : 81
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f4"),
+        "id" : 5,
+        "title" : "Finding Nemo",
+        "director" : "Andrew Stanton",
+        "year" : 2003,
+        "length_minutes" : 107
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f5"),
+        "id" : 13,
+        "title" : "Brave",
+        "director" : "Brenda Chapman",
+        "year" : 2012,
+        "length_minutes" : 102
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f6"),
+        "id" : 14,
+        "title" : "Monsters University",
+        "director" : "Dan Scanlon",
+        "year" : 2013,
+        "length_minutes" : 110
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f7"),
+        "id" : 9,
+        "title" : "WALL-E",
+        "director" : "Andrew Stanton",
+        "year" : 2008,
+        "length_minutes" : 104
+}

@@ -1,0 +1,76 @@
+5.Find the title and year of each film
+
+Query:
+db.filmData.find({}, {title:1, year:1})
+
+Results:
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f3"),
+        "title" : "Toy Story",
+        "year" : 1995
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f4"),
+        "title" : "Finding Nemo",
+        "year" : 2003
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f5"),
+        "title" : "Brave",
+        "year" : 2012
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f6"),
+        "title" : "Monsters University",
+        "year" : 2013
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f7"),
+        "title" : "WALL-E",
+        "year" : 2008
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f8"),
+        "title" : "Up",
+        "year" : 2009
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f9"),
+        "title" : "Cars 2",
+        "year" : 2011
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fa"),
+        "title" : "The Incredibles",
+        "year" : 2004
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fb"),
+        "title" : "Toy Story 2",
+        "year" : 1999
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fc"),
+        "title" : "Monsters, Inc.",
+        "year" : 2001
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fd"),
+        "title" : "Toy Story 3",
+        "year" : 2010
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fe"),
+        "title" : "Ratatouille",
+        "year" : 2007
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805ff"),
+        "title" : "A Bug's Life",
+        "year" : 1998
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf6580600"),
+        "title" : "Cars",
+        "year" : 2006
+}

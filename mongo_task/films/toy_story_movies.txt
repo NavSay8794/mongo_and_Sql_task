@@ -1,0 +1,30 @@
+10. Find all the Toy Story movies
+
+Query:
+db.filmData.find({title: /Toy Story/}).pretty()
+
+Results:
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f3"),
+        "id" : 1,
+        "title" : "Toy Story",
+        "director" : "John Lasseter",
+        "year" : 1995,
+        "length_minutes" : 81
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fb"),
+        "id" : 3,
+        "title" : "Toy Story 2",
+        "director" : "John Lasseter",
+        "year" : 1999,
+        "length_minutes" : 93
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fd"),
+        "id" : 11,
+        "title" : "Toy Story 3",
+        "director" : "Lee Unkrich",
+        "year" : 2010,
+        "length_minutes" : 103
+}

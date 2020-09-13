@@ -1,0 +1,21 @@
+4.Find the title and director of each film
+
+Query:
+db.filmData.find({}, {title:1, director:1})
+
+
+Results:
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f3"), "title" : "Toy Story", "director" : "John Lasseter" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f4"), "title" : "Finding Nemo", "director" : "Andrew Stanton" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f5"), "title" : "Brave", "director" : "Brenda Chapman" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f6"), "title" : "Monsters University", "director" : "Dan Scanlon" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f7"), "title" : "WALL-E", "director" : "Andrew Stanton" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f8"), "title" : "Up", "director" : "Pete Docter" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f9"), "title" : "Cars 2", "director" : "John Lasseter" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805fa"), "title" : "The Incredibles", "director" : "Brad Bird" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805fb"), "title" : "Toy Story 2", "director" : "John Lasseter" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805fc"), "title" : "Monsters, Inc.", "director" : "Pete Docter" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805fd"), "title" : "Toy Story 3", "director" : "Lee Unkrich" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805fe"), "title" : "Ratatouille", "director" : "Brad Bird" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805ff"), "title" : "A Bug's Life", "director" : "John Lasseter" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf6580600"), "title" : "Cars", "director" : "John Lasseter" }

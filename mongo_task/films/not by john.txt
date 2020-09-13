@@ -1,0 +1,51 @@
+12.Find all the movies (and director) not directed by John Lasseter
+
+Query:
+db.filmData.find({director: {$ne: "John Lasseter"}} , {title:1 , director:1 ,_id:1}).pretty()
+
+Results:
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f4"),
+        "title" : "Finding Nemo",
+        "director" : "Andrew Stanton"
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f5"),
+        "title" : "Brave",
+        "director" : "Brenda Chapman"
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f6"),
+        "title" : "Monsters University",
+        "director" : "Dan Scanlon"
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f7"),
+        "title" : "WALL-E",
+        "director" : "Andrew Stanton"
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f8"),
+        "title" : "Up",
+        "director" : "Pete Docter"
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fa"),
+        "title" : "The Incredibles",
+        "director" : "Brad Bird"
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fc"),
+        "title" : "Monsters, Inc.",
+        "director" : "Pete Docter"
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fd"),
+        "title" : "Toy Story 3",
+        "director" : "Lee Unkrich"
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fe"),
+        "title" : "Ratatouille",
+        "director" : "Brad Bird"
+}

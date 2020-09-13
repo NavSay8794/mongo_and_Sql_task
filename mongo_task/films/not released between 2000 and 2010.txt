@@ -1,0 +1,54 @@
+8.Find the movies not released in the years between 2000 and 2010
+
+Query: 
+db.filmData.find({$or: [{year: {$lt: 2000}},{year: {$gt:2010}}]}).pretty()
+
+Results:
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f3"),
+        "id" : 1,
+        "title" : "Toy Story",
+        "director" : "John Lasseter",
+        "year" : 1995,
+        "length_minutes" : 81
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f5"),
+        "id" : 13,
+        "title" : "Brave",
+        "director" : "Brenda Chapman",
+        "year" : 2012,
+        "length_minutes" : 102
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f6"),
+        "id" : 14,
+        "title" : "Monsters University",
+        "director" : "Dan Scanlon",
+        "year" : 2013,
+        "length_minutes" : 110
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f9"),
+        "id" : 12,
+        "title" : "Cars 2",
+        "director" : "John Lasseter",
+        "year" : 2011,
+        "length_minutes" : 120
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fb"),
+        "id" : 3,
+        "title" : "Toy Story 2",
+        "director" : "John Lasseter",
+        "year" : 1999,
+        "length_minutes" : 93
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805ff"),
+        "id" : 2,
+        "title" : "A Bug's Life",
+        "director" : "John Lasseter",
+        "year" : 1998,
+        "length_minutes" : 95
+}

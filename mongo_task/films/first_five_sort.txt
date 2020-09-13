@@ -1,0 +1,47 @@
+15.List the first five Pixar movies sorted alphabetically
+
+Query:
+db.filmData.find().sort({title:1}).limit(5).pretty()
+
+
+Results:
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805ff"),
+        "id" : 2,
+        "title" : "A Bug's Life",
+        "director" : "John Lasseter",
+        "year" : 1998,
+        "length_minutes" : 95
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f5"),
+        "id" : 13,
+        "title" : "Brave",
+        "director" : "Brenda Chapman",
+        "year" : 2012,
+        "length_minutes" : 102
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf6580600"),
+        "id" : 7,
+        "title" : "Cars",
+        "director" : "John Lasseter",
+        "year" : 2006,
+        "length_minutes" : 117
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f9"),
+        "id" : 12,
+        "title" : "Cars 2",
+        "director" : "John Lasseter",
+        "year" : 2011,
+        "length_minutes" : 120
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f4"),
+        "id" : 5,
+        "title" : "Finding Nemo",
+        "director" : "Andrew Stanton",
+        "year" : 2003,
+        "length_minutes" : 107
+}

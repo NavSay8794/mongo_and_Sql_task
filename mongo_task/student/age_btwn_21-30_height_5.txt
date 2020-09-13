@@ -1,0 +1,27 @@
+2.Find all students whos age is between 21 - 30 and height is greater than 5
+
+Query:
+db.students.find({$and:[{ age: {$gte:21 , $lte:30}} , {height: {$gt:5}}]}).pretty()
+
+Results:
+{
+        "_id" : ObjectId("5f5e1f1dc16c0f282da7902b"),
+        "name" : "Student 4",
+        "email" : "student4@gmail.com",
+        "age" : 22,
+        "height" : 6.2
+}
+{
+        "_id" : ObjectId("5f5e1f1dc16c0f282da7902c"),
+        "name" : "Student 5",
+        "email" : "student5@gmail.com",
+        "age" : 30,
+        "height" : 5.3
+}
+{
+        "_id" : ObjectId("5f5e1f1dc16c0f282da7902f"),
+        "name" : "Student 8",
+        "email" : "student8@gmail.com",
+        "age" : 24,
+        "height" : 5.3
+}

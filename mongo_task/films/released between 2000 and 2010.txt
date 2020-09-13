@@ -1,0 +1,72 @@
+7.Find the movies released in the years between 2000 and 2010
+
+Query:
+db.filmData.find({year: {$gte: 2000 , $lte: 2010}}).pretty()
+
+
+
+Results:
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f4"),
+        "id" : 5,
+        "title" : "Finding Nemo",
+        "director" : "Andrew Stanton",
+        "year" : 2003,
+        "length_minutes" : 107
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f7"),
+        "id" : 9,
+        "title" : "WALL-E",
+        "director" : "Andrew Stanton",
+        "year" : 2008,
+        "length_minutes" : 104
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f8"),
+        "id" : 10,
+        "title" : "Up",
+        "director" : "Pete Docter",
+        "year" : 2009,
+        "length_minutes" : 101
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fa"),
+        "id" : 6,
+        "title" : "The Incredibles",
+        "director" : "Brad Bird",
+        "year" : 2004,
+        "length_minutes" : 116
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fc"),
+        "id" : 4,
+        "title" : "Monsters, Inc.",
+        "director" : "Pete Docter",
+        "year" : 2001,
+        "length_minutes" : 92
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fd"),
+        "id" : 11,
+        "title" : "Toy Story 3",
+        "director" : "Lee Unkrich",
+        "year" : 2010,
+        "length_minutes" : 103
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fe"),
+        "id" : 8,
+        "title" : "Ratatouille",
+        "director" : "Brad Bird",
+        "year" : 2007,
+        "length_minutes" : 115
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf6580600"),
+        "id" : 7,
+        "title" : "Cars",
+        "director" : "John Lasseter",
+        "year" : 2006,
+        "length_minutes" : 117
+}

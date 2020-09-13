@@ -1,0 +1,15 @@
+13. Find all the WALL-* movies
+
+Query:
+db.filmData.find({title : /WALL-/}).pretty()
+
+Results:
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f7"),
+        "id" : 9,
+        "title" : "WALL-E",
+        "director" : "Andrew Stanton",
+        "year" : 2008,
+        "length_minutes" : 104
+}
+

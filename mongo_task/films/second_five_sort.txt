@@ -1,0 +1,47 @@
+15.List the next five Pixar movies sorted alphabetically
+
+Query:
+db.filmData.find().sort({title:1}).limit(5).skip(5).pretty()
+
+
+Results:
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f6"),
+        "id" : 14,
+        "title" : "Monsters University",
+        "director" : "Dan Scanlon",
+        "year" : 2013,
+        "length_minutes" : 110
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fc"),
+        "id" : 4,
+        "title" : "Monsters, Inc.",
+        "director" : "Pete Docter",
+        "year" : 2001,
+        "length_minutes" : 92
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fe"),
+        "id" : 8,
+        "title" : "Ratatouille",
+        "director" : "Brad Bird",
+        "year" : 2007,
+        "length_minutes" : 115
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805fa"),
+        "id" : 6,
+        "title" : "The Incredibles",
+        "director" : "Brad Bird",
+        "year" : 2004,
+        "length_minutes" : 116
+}
+{
+        "_id" : ObjectId("5f5d0f3293f2d5fdf65805f3"),
+        "id" : 1,
+        "title" : "Toy Story",
+        "director" : "John Lasseter",
+        "year" : 1995,
+        "length_minutes" : 81
+}

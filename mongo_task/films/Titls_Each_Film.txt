@@ -1,0 +1,20 @@
+2.Find the title of each film
+
+Query:
+db.filmData.find({},{title: 1})
+
+Results:
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f3"), "title" : "Toy Story" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f4"), "title" : "Finding Nemo" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f5"), "title" : "Brave" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f6"), "title" : "Monsters University" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f7"), "title" : "WALL-E" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f8"), "title" : "Up" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805f9"), "title" : "Cars 2" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805fa"), "title" : "The Incredibles" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805fb"), "title" : "Toy Story 2" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805fc"), "title" : "Monsters, Inc." }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805fd"), "title" : "Toy Story 3" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805fe"), "title" : "Ratatouille" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf65805ff"), "title" : "A Bug's Life" }
+{ "_id" : ObjectId("5f5d0f3293f2d5fdf6580600"), "title" : "Cars" }
